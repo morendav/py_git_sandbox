@@ -48,7 +48,7 @@ print("Your Mystery Word length is %s characters: \n%s" % (len(guessWord),guessW
 ###     CodeBlock: Begin Rounds
 #######################################
 for it in range(maxTries):
-    guess = raw_input("What is your Guess? ")
+    guess = input("What is your Guess? ")
     guess = guess.lower() # standard all text will be lower case
     ### Conditionals for invalid scenarios
     if guess in guessHist:
