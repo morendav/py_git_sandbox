@@ -1,24 +1,25 @@
 # Python
-####################################
-###   Python learning space     ###
-####################################
 
+## Description
 Projects developed to solve simple problems in an educational sandbox
 
-----------------------------------
-###     Mac Instructions       ###
-----------------------------------
-To run python from terminal:
-  >> python <scriptname>.py
 
-----------------------------------
-###   Completed Projects     ###
-----------------------------------
-#01 numberGuesser.py
->    script that generates a random number, begins with an initial guess, and iterates until the correct number is guessed by the program.
->    Optimizations: version 2 will use the degree of magnitude of the guess-number difference to adjust itself per iteration && removed redundant if conditions to improve run time
->>    Module Dependencies: random, math
+## ./StudyProjects/
+Brief description of complete projects
 
-#02 numberGuesser.py
->    Script that lets you play hangman! woot. Play against the program that will pick a random word from a given list, you have only n chances!
->>    Module Dependencies: os, random, setup, file(./Library/RandWordList.txt)
+### numberGuesser.py
+* Description: script that generates a random number, begins with an initial guess, and iterates until the correct number is guessed by the program.
+* Optimizations: introduce a degree of magnitude of the guess-number difference to adjust itself per iteration && removed redundant if conditions to improve run time
+* Dependencies: random, math
+
+### hangMan.py
+* Description: hangman game written in python
+* Optimizations: nest loops aren't 'pythonic'. Doesn't draw a fun little hangman, just counts down guesses
+* Dependencies: os, random, setuptools
+  * pulls random words from ./library/RandWordList.txt
+
+### graphMachine.py
+* Description: Live plot for newtonian body in motion under second order (acceleration) and first order (velocity) terms. Fun plot! 
+* Optimizations: make it interactive
+* Dependencies: numpy, scipy, matplotlib
+    * pulls random words from ./library/RandWordList.txt
