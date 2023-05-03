@@ -1,10 +1,13 @@
 # Python
 
+Is a git project
+
 ## Description
 Projects developed to solve simple problems in an educational sandbox
 
 
 ## ./StudyProjects/
+
 Brief description of complete projects
 
 ### numberGuesser.py
@@ -23,3 +26,10 @@ Brief description of complete projects
 * Optimizations: make it interactive
 * Dependencies: numpy, scipy, matplotlib
     * pulls random words from ./library/RandWordList.txt
+
+
+
+
+## ./machineLearning/
+
+Random ML projects
